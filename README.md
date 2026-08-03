@@ -1,4 +1,4 @@
-*# Black-Box Optimization (BBO) Capstone Project
+# Black-Box Optimization (BBO) Capstone Project
 Welcome to the BBO Capstone Project repository. This project explores continuous global optimization across 8 unknown objective functions using iterative surrogate modeling, generative AI, and interpretable decision trees.
 ## Project Documentation
 * [BBO Dataset Datasheet](DATASHEET.md) - Complete datasheet detailing data motivation, composition, collection, and governance.
