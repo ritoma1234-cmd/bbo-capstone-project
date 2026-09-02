@@ -36,8 +36,9 @@ Applied K-Means clustering across elite points (top 30 to 35%) to filter unrepea
 - Reinforcement Learning Policy Search (Week 24):
 Formulated final candidate selection as continuous Multi-Armed Bandit policy optimisation using an Extra-Trees ensemble Q-value estimator with decaying exploration bonuses to ensure maximum exploitation inside verified optimal basins.
 
+### FLOWCHART OVERVIEW
 
-FLOWCHART OVERVIEW
+```text
 [Raw Historical Evaluation History: Inputs 0 to 1, Outputs y]
                             |
                             v
@@ -47,8 +48,8 @@ FLOWCHART OVERVIEW
            |                                 |
            v                                 v
 [Low Dimensions 2D: K-Means]      [High Dimensions 8D: PCA Subspace]
-- Density Basins                  - Dominant Eigenaxes
-- Outlier Filtering               - Latent K-Means
+  - Density Basins                  - Dominant Eigenaxes
+  - Outlier Filtering               - Latent K-Means
            |                                 |
            +----------------+----------------+
                             |
@@ -57,6 +58,7 @@ FLOWCHART OVERVIEW
                             |
                             v
 [Optimal Candidate Coordinate: Example 0.702637-0.926564 for Function 2]
+```
 
 ## NON-TECHNICAL EXPLANATION OF YOUR PROJECT
 Imagine trying to find the highest peak in a vast, fog-covered mountain range where every step costs significant time and resources. Rather than wandering blindly, this project builds an intelligent mapping system. Using machine learning, the system analyses past measurements to model the terrain's hidden structure, discard misleading dead ends, and pinpoint the highest elevations. Across 13 sequential iterative rounds, our pipeline transitioned from broad exploration to focused exploitation, discovering optimal values across eight complex, multi-dimensional systems while strictly conserving evaluation resources.
