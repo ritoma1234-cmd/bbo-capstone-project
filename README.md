@@ -89,10 +89,10 @@ The pipeline successfully isolated high-reward basins across all eight functions
 * Function 8 (8D): Peak reward = 9.598482 at [0.056447, 0.065956, 0.022929, 0.038786, 0.403935, 0.801055, 0.488307, 0.893085]
 
 ## PROJECT DOCUMENTATION
-* [Comprehensive Datasheet](DATASHEET.md)
-* [Model Card](MODEL_CARD.md)
+* [Comprehensive Datasheet (Functions 1–8)](DATASHEET.md)
+* [Final Model Card](MODEL_CARD.md)
 * [Module 21 Datasheet](DATASHEET_MODULE_21.md)
 * [Module 21 Model Card](MODEL_CARD_MODULE_21.md)
-
+  
 ## CODE & IMPLEMENTATION
 * [Colab Source Notebook](Capstone_BBO_Optimisation_Challenge.ipynb)
