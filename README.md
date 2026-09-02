@@ -88,6 +88,9 @@ The pipeline successfully isolated high-reward basins across all eight functions
 * Function 7 (6D): Peak reward = 1.364968 at [0.057896, 0.491672, 0.247422, 0.218118, 0.420428, 0.730970]
 * Function 8 (8D): Peak reward = 9.598482 at [0.056447, 0.065956, 0.022929, 0.038786, 0.403935, 0.801055, 0.488307, 0.893085]
 
+![Function 2 Cluster Map](function_2_cluster_map.png)
+*Figure 1: High-reward K-Means clustering for Function 2 (2D), highlighting historical queries, elite regions (top 30%), cluster centroids, and the targeted Round 11 acquisition candidate.*
+
 ## PROJECT DOCUMENTATION
 * [Comprehensive Datasheet (Functions 1–8)](DATASHEET.md)
 * [Final Model Card](MODEL_CARD.md)
