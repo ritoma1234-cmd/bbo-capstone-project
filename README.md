@@ -93,3 +93,6 @@ The pipeline successfully isolated high-reward basins across all eight functions
 * [Model Card](MODEL_CARD.md)
 * [Module 21 Datasheet](DATASHEET_MODULE_21.md)
 * [Module 21 Model Card](MODEL_CARD_MODULE_21.md)
+
+## CODE & IMPLEMENTATION
+* [Colab Source Notebook](Capstone_BBO_Optimisation_Challenge.ipynb)
